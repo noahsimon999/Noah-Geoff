@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <!-- top nav bar -->
+    <header>
+        <div class="navbar-fixed">
+            <nav class="red darken-1">
+                <div class="nav-wrapper container red darken-1">
+                    <a href="#" class="brand-logo">Instant Karaoke</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="#">Video</a>
+                        </li>
+                        <li>
+                            <a href="#">Lyrics</a>
+                        </li>
+                        <li>
+                            <a href="#">Wiki</a>
+                        </li>
+                        <li>
+                            <a href="#">Shows</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Method to create a dropdown menu at small screen sizes             -->
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a href="#">Search</a>
+                </li>
+                <li>
+                    <a href="#">Video</a>
+                </li>
+                <li>
+                    <a href="#">Lyrics</a>
+                </li>
+                <li>
+                    <a href="#">Wiki</a>
+                </li>
+                <li>
+                    <a href="#">Shows</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <div class="video">
+                <video autoplay muted loop id="myVideo">
+                    <source src="./videos/musicVideo.mp4" type="video/mp4" align="middle">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <!-- header overlay with search form -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card white">
+                    <div class="card-content black-text">
+                        <h1>Search for your favorite song!</h1>
+                        <div class="signup-container2">
+                            <form>
+                                <input class="songInput" type="text" placeholder="Enter song name here" size="50px"></input>
+                                <input id="artist-input" type="text" placeholder="Enter band name here" size="50px"></input>
+                                <input id="select-artist" type="submit" value="Search">
+                            </form>
+                        </div 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page break with instructions -->
+<div class="container">
+    <div class="row">
+        <div class="col s12 page-break">
+            <h1>Step 1: Play the video to hear the song</h1>
+        </div>
+    </div>
+</div>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/vendor/jquery-1.11.2.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
